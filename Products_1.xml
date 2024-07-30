@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="products.xsl"?>
+<!DOCTYPE products [
+  <!ELEMENT products (product+)>
+  <!ELEMENT product (product_id, product_name, category, unit_price, stock_quantity)>
+  <!ELEMENT product_id (#PCDATA)>
+  <!ELEMENT product_name (#PCDATA)>
+  <!ELEMENT category (#PCDATA)>
+  <!ELEMENT unit_price (#PCDATA)>
+  <!ELEMENT stock_quantity (#PCDATA)>
+]>
+<products>
+  <product>
+    <product_id>P001</product_id>
+    <product_name>โทรศัพท์มือถือ</product_name>
+    <category>อิเล็กทรอนิกส์</category>
+    <unit_price>10000</unit_price>
+    <stock_quantity>50</stock_quantity>
+  </product>
+  <product>
+    <product_id>P002</product_id>
+    <product_name>แล็ปท็อป</product_name>
+    <category>อิเล็กทรอนิกส์</category>
+    <unit_price>20000</unit_price>
+    <stock_quantity>30</stock_quantity>
+  </product>
+  <product>
+    <product_id>P003</product_id>
+    <product_name>เสื้อยืด</product_name>
+    <category>เสื้อผ้า</category>
+    <unit_price>300</unit_price>
+    <stock_quantity>100</stock_quantity>
+  </product>
+  <product>
+    <product_id>P004</product_id>
+    <product_name>รองเท้ากีฬา</product_name>
+    <category>รองเท้า</category>
+    <unit_price>1500</unit_price>
+    <stock_quantity>70</stock_quantity>
+  </product>
+  <product>
+    <product_id>P005</product_id>
+    <product_name>กระเป๋าเป้</product_name>
+    <category>อุปกรณ์เสริม</category>
+    <unit_price>800</unit_price>
+    <stock_quantity>40</stock_quantity>
+  </product>
+</products>

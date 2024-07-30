@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sales.xsl"?>
+<!DOCTYPE sales [
+  <!ELEMENT sales (sale+)>
+  <!ELEMENT sale (sale_id, customer_id, product_id, sale_date, quantity_sold, total_price)>
+  <!ELEMENT sale_id (#PCDATA)>
+  <!ELEMENT product_id (#PCDATA)>
+  <!ELEMENT sale_date (#PCDATA)>
+  <!ELEMENT quantity_sold (#PCDATA)>
+  <!ELEMENT total_price (#PCDATA)>
+]>
+<sales>
+  <sale>
+    <sale_id>S001</sale_id>
+    <product_id>P001</product_id>
+    <sale_date>2024-07-15</sale_date>
+    <quantity_sold>1</quantity_sold>
+    <total_price>7,180</total_price>
+  </sale>
+  <sale>
+    <sale_id>S002</sale_id>
+    <product_id>P003</product_id>
+    <sale_date>2024-07-16</sale_date>
+    <quantity_sold>2</quantity_sold>
+    <total_price>1,338</total_price>
+  </sale>
+  <sale>
+    <sale_id>S003</sale_id>
+    <product_id>P002</product_id>
+    <sale_date>2024-07-16</sale_date>
+    <quantity_sold>1</quantity_sold>
+    <total_price>3,990</total_price>
+  </sale>
+  <sale>
+    <sale_id>S004</sale_id>
+    <product_id>P004</product_id>
+    <sale_date>2024-07-17</sale_date>
+    <quantity_sold>5</quantity_sold>
+    <total_price>12,758</total_price>
+  </sale>
+  <sale>
+    <sale_id>S005</sale_id>
+    <product_id>P005</product_id>
+    <sale_date>2024-07-18</sale_date>
+    <quantity_sold>2</quantity_sold>
+    <total_price>3,188</total_price>
+  </sale>
+</sales>

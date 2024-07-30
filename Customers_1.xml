@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="customers.xsl"?>
+<!DOCTYPE customers [
+  <!ELEMENT customers (customer+)>
+  <!ELEMENT customer (customer_id, customer_name, address, phone_number, email)>
+  <!ELEMENT customer_id (#PCDATA)>
+  <!ELEMENT customer_name (#PCDATA)>
+  <!ELEMENT address (#PCDATA)>
+  <!ELEMENT phone_number (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>
+]>
+<customers>
+  <customer>
+    <customer_id>C001</customer_id>
+    <customer_name>ปณิธาน</customer_name>
+    <address>123 ถนนราชดำเนิน</address>
+    <phone_number>081-1234567</phone_number>
+    <email>65209010006@thonburi.ac.th</email>
+  </customer>
+  <customer>
+    <customer_id>C002</customer_id>
+    <customer_name>วายุ</customer_name>
+    <address>456 ซอยสุขุมวิท</address>
+    <phone_number>082-2345678</phone_number>
+    <email>65209010010@thonburi.ac.th</email>
+  </customer>
+  <customer>
+    <customer_id>C003</customer_id>
+    <customer_name>สิริภูมิ</customer_name>
+    <address>789 หมู่บ้านการเคหะ</address>
+    <phone_number>083-3456789</phone_number>
+    <email>65209010011@thonburi.ac.th</email>
+  </customer>
+  <customer>
+    <customer_id>C004</customer_id>
+    <customer_name>จักรี</customer_name>
+    <address>101 ซอยลาซาล</address>
+    <phone_number>084-4567890</phone_number>
+    <email>65209010002@thonburi.ac.th</email>
+  </customer>
+  <customer>
+    <customer_id>C005</customer_id>
+    <customer_name>ภาษยกร</customer_name>
+    <address>202 ซอยพระราม 9</address>
+    <phone_number>085-5678901</phone_number>
+    <email>65209010009@thonburi.ac.th</email>
+  </customer>
+</customers>

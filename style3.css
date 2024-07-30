@@ -1,0 +1,77 @@
+body {
+    font-family: "Gloss and Bloom";
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.con1 {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.conhead {
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 0%;
+    /* border: 1px solid rgb(255, 255, 255); */
+    text-shadow: 5px 5px rgb(139, 139, 139);
+    text-align: center;
+}
+.imgme {
+    /* border: 1px solid green; */
+    margin-top: 5px;
+    text-align: left;
+    display: flex;
+    border-radius: 2000px;
+    -webkit-border-radius: 2000px;
+    -moz-border-radius: 2000px;
+    -ms-border-radius: 2000px;
+    -o-border-radius: 2000px;
+}
+.detail {
+    /* border: 1px solid rgb(47, 0, 255); */
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.de2 {
+    /* border: 1px solid rgba(255, 0, 0, 0.753); */
+    text-align: left;
+    font-size: 25px;
+    margin-left: 160px;
+    margin-top: 80px;
+    color: white;
+    text-shadow: 3px 3px rgb(255, 166, 0);
+
+}
+.button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+}
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #04AA6D;
+  }
+  
+  .button1:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.but{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}

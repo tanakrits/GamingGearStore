@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sales_staff.xsl"?>
+<!DOCTYPE sales_staff [
+  <!ELEMENT sales_staff (staff+)>
+  <!ELEMENT staff (staff_id, staff_name, position, phone_number, email)>
+  <!ELEMENT staff_id (#PCDATA)>
+  <!ELEMENT staff_name (#PCDATA)>
+  <!ELEMENT position (#PCDATA)>
+  <!ELEMENT phone_number (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>
+]>
+<sales_staff>
+  <staff>
+    <staff_id>ST001</staff_id>
+    <staff_name>ณัฐชนน</staff_name>
+    <position>ผู้จัดการฝ่ายขาย</position>
+    <phone_number>085-1234567</phone_number>
+    <email>65209010003@thonburi.ac.th</email>
+  </staff>
+  <staff>
+    <staff_id>ST002</staff_id>
+    <staff_name>ปุณณพัฒน์</staff_name>
+    <position>พนักงานขาย</position>
+    <phone_number>086-2345678</phone_number>
+    <email>65209010007@thonburi.ac.th</email>
+  </staff>
+  <staff>
+    <staff_id>ST003</staff_id>
+    <staff_name>อิทธิพัฒน์</staff_name>
+    <position>พนักงานขาย</position>
+    <phone_number>087-3456789</phone_number>
+    <email>65209010012@thonburi.ac.th</email>
+  </staff>
+  <staff>
+    <staff_id>ST004</staff_id>
+    <staff_name>พิทักษ์</staff_name>
+    <position>พนักงานขาย</position>
+    <phone_number>088-4567890</phone_number>
+    <email>65209010008@thonburi.ac.th</email>
+  </staff>
+  <staff>
+    <staff_id>ST005</staff_id>
+    <staff_name>กัญญาภัค</staff_name>
+    <position>พนักงานขาย</position>
+    <phone_number>089-5678901</phone_number>
+    <email>65209010013@thonburi.ac.th</email>
+  </staff>
+</sales_staff>
