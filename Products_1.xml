@@ -12,37 +12,37 @@
 <products>
   <product>
     <product_id>P001</product_id>
-    <product_name>โทรศัพท์มือถือ</product_name>
+    <product_name>LOGITECH G PRO-X SUPERLIGHT</product_name>
     <category>อิเล็กทรอนิกส์</category>
-    <unit_price>10000</unit_price>
+    <unit_price>3,990</unit_price>
     <stock_quantity>50</stock_quantity>
   </product>
   <product>
     <product_id>P002</product_id>
-    <product_name>แล็ปท็อป</product_name>
+    <product_name>GLORIOUS MODEL O WIRELESS</product_name>
     <category>อิเล็กทรอนิกส์</category>
-    <unit_price>20000</unit_price>
-    <stock_quantity>30</stock_quantity>
+    <unit_price>3,590</unit_price>
+    <stock_quantity>50</stock_quantity>
   </product>
   <product>
     <product_id>P003</product_id>
-    <product_name>เสื้อยืด</product_name>
-    <category>เสื้อผ้า</category>
-    <unit_price>300</unit_price>
-    <stock_quantity>100</stock_quantity>
+    <product_name>VXE Dragonfly R1 Pro Max</product_name>
+    <category>อิเล็กทรอนิกส์</category>
+    <unit_price>1,338</unit_price>
+    <stock_quantity>50</stock_quantity>
   </product>
   <product>
     <product_id>P004</product_id>
-    <product_name>รองเท้ากีฬา</product_name>
-    <category>รองเท้า</category>
-    <unit_price>1500</unit_price>
-    <stock_quantity>70</stock_quantity>
+    <product_name>VGN F1 MOBA</product_name>
+    <category>อิเล็กทรอนิกส์</category>
+    <unit_price>1,594</unit_price>
+    <stock_quantity>50</stock_quantity>
   </product>
   <product>
     <product_id>P005</product_id>
-    <product_name>กระเป๋าเป้</product_name>
-    <category>อุปกรณ์เสริม</category>
-    <unit_price>800</unit_price>
-    <stock_quantity>40</stock_quantity>
+    <product_name>Loga Deva 4K</product_name>
+    <category>อิเล็กทรอนิกส์</category>
+    <unit_price>2,390</unit_price>
+    <stock_quantity>50</stock_quantity>
   </product>
 </products>
