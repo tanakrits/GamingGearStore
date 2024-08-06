@@ -4,25 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <title>หน้าหลัก</title>
 </head>
 <body>
-    <header>
-        <h1>หน้าหลัก</h1>
-    </header>
-    <nav>
-        <ul>
-            <!-- <li><a href="index.html">หน้าหลัก</a></li> -->
-            <li><a href="Products_1.xml" target="_blank">ข้อมูลสินค้า</a></li>
-            <li><a href="Customers_1.xml" target="_blank">ข้อมูลลูกค้า</a></li>
-            <li><a href="Sales_1.xml" target="_blank">ข้อมูลการขาย</a></li>
-            <li><a href="Staff_1.xml" target="_blank">ข้อมูลพนักงานขาย</a></li>
-            <li><a href="contact.html">ติดต่อเรา</a></li>
+        <nav class="navbar navbar-expand-lg" style="background-color: #ffa600;" >
+            <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="001.jpg" alt="Bootstrap" width="50" height="44">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">หน้าหลัก</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    รายละเอียด
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Products_1.xml" target="_blank">ข้อมูลสินค้า</a></li>
+                    <li><a class="dropdown-item" href="Customers_1.xml" target="_blank">ข้อมูลลูกค้า</a></li>
+                    <li><a class="dropdown-item" href="Sales_1.xml" target="_blank">ข้อมูลการขาย</a></li>
+                    <li><a class="dropdown-item" href="Staff_1.xml" target="_blank">ข้อมูลพนักงานขาย</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">ติดต่อเรา</a>
+                </li>
+                
+                </ul>
+                
+            </div>
+            </div>
+        </nav> <br><br>
+        <div class="con5">
 
-        </ul>
-    </nav>
+            <div class="container text-center">
+                <div class="row row-cols-4">
+                  <div class="col">
+                    <img src="img/002.jpg" width="250px" height="250">
+                    <h5>LOGITECH G PRO-X SUPERLIGHT</h5>
+                    <h5>ราคา</h5>
+                    <p>3,990</p>
+                  </div>
+                  <div class="col">
+                    <img src="img/003.jpg" width="auto" height="250">
+                    <h5>GLORIOUS MODEL O WIRELESS</h5>
+                    <h5>ราคา</h5>
+                    <p>3,590</p>
+                  </div>
+                  <div class="col">
+                    <img src="img/004.jpg" width="250px" height="250">
+                    <h5>VXE Dragonfly R1 Pro Max</h5>
+                    <h5>ราคา</h5>
+                    <p>1,338</p>
+                  </div>
+                  <div class="col">
+                    <img src="img/005.jpg" width="250px" height="250">
+                    <h5>VGN F1 MOBA</h5>
+                    <h5>ราคา</h5>
+                    <p>1,594</p>
+                  </div>
+                  <div class="col-md-12">
+                    <img src="img/006.jpg" width="250px" height="250">
+                    <h5>Loga Deva 4K</h5>
+                    <h5>ราคา</h5>
+                    <p>2,390</p>
+                  </div>
+                </div>
+              </div>
+
+
+        
+            <!-- <div class="col">
+                <div class="card">
+                  <img src="img/006.jpg" width="300px">
+                  <div class="card-body">
+                    <h5 class="card-title">Loga Deva 4K</h5>
+                    <h5 class="card-title">ราคา</h5>
+                    <p class="card-text">2,390</p>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div> -->
+
+      
+
+    
     <footer>
-        <a>555555......</a>
+        <a>Tanakrit Suppasoon</a>
     </footer>
 </body>
 </html>
